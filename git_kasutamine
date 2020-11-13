@@ -9,4 +9,15 @@ git config --global user.email joonas.masing@khk.ee
 
 git config --global core.editor nano
 
+3. Initsialiseerimine (ainult üks kord töökaustas!)
 
+git init 
+
+4. Kasutamine
+
+git status
+git add faili_nimi
+git commit -m "muudatuse kirjeldus"
+
+git log
+git show commiti_hast
