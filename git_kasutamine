@@ -1,0 +1,12 @@
+1. GIT paigaldamine
+
+Linux: apt-get install git
+
+2. Seadistamine (töötava kasutaja alt, mitte root)
+
+git config --global user.name "Joonas Masing"
+git config --global user.email joonas.masing@khk.ee
+
+git config --global core.editor nano
+
+
