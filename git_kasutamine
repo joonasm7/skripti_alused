@@ -15,9 +15,10 @@ git init
 
 4. Kasutamine
 
+a) lisamine jälgimisele ja muudatuste fikseerimine
 git status
 git add faili_nimi
 git commit -m "muudatuse kirjeldus"
-
+b) muudatuse uurimine
 git log
 git show commiti_hast
