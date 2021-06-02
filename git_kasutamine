@@ -1,29 +1,33 @@
 1. GIT paigaldamine
 
 Linux: apt-get install git
-
-2) Seadistamine (töötava kasutaja alt, mitte root)
+---------------------------------------------------
+2. Seadistamine (töötava kasutaja alt, mitte root)
 
 git config --global user.name "Joonas Masing"
 git config --global user.email joonas.masing@khk.ee
-
 git config --global core.editor nano
-
+----------------------------------------------------
 3. Initsialiseerimine (ainult üks kord töökaustas!)
 
 git init 
-
+----------------------------------------------------
 4. Kasutamine
 
 a) lisamine jälgimisele ja muudatuste fikseerimine
 git status
 git add faili_nimi
 git commit -m "muudatuse kirjeldus"
+
 b) muudatuse uurimine
 git log
 git show commiti_hast
-
+---------------------------------------------------
 5. Remote kasutamine
+
 a) Github repo ühenduse lisamiseks
-git remote add origin https://github.com/joonasm7/skripti_alused.git
+git remote add skiriptimine https://github.com/joonasm7/skripti_alused.git
 git push -u origin master
+---------------------------------------------------
+Joonas Masing 2021
+Tartu Kutsehariduskeskus
