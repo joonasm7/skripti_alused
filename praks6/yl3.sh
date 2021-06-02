@@ -4,7 +4,6 @@
 #Kui number pole 1-12, kuvatakse error, et see ei sobi
 #Joonas Masing
 #
-
 echo -n "Sisestage kuu number: "
 read kuu
 case $kuu in
