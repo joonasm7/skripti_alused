@@ -17,4 +17,4 @@ then
 	bussid=$(($bussid + 1))
 fi
 
-echo "Selleks, et kõik mahuksiud ära, on vaja $bussid bussi" 
+echo "Selleks, et kõik mahuksid ära, on vaja $bussid bussi" 
