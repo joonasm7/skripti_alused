@@ -1,7 +1,17 @@
-#Luba kasutajale sisestada suvaline täisarv
-#skript peab arvestama sisestatud numbrite summat ja väljastama 
-#koos selgitava tekstiga
+#!/bin/bash
+#
+#
+#Väljastab suvalise täisarvu numbrite summa 
+#Joonas Masing
+#
+echo "Sisesta suvaline taisarv: "
+read arv
 summa=0
-echo "Sisesta suvaline täisarv"$input
-read input
-if [ $input -eq 0
+while [ $arv -ne 0 ]
+do
+	jaak=$(($arv % 10))
+	summa=$(($summa + $jaak))
+	arv=$(($arv / 10))
+done
+echo "$summa"
+
